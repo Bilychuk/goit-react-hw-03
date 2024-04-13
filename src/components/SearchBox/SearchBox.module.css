@@ -1,0 +1,11 @@
+.container {
+  margin-bottom: 16px;
+}
+
+.input {
+  outline: transparent;
+}
+.input:hover,
+.input:focus {
+  border-color: blue;
+}
