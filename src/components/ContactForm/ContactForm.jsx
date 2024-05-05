@@ -18,7 +18,7 @@ const UserSchema = Yup.object().shape({
     .required('Required'),
 });
 
-export default function SearchBox({ onAdd }) {
+export default function ContactForm({ onAdd }) {
   const usernameId = useId();
   const numberId = useId();
 
